@@ -1,0 +1,26 @@
+"""from enum import Enum
+class Color(Enum):
+    red = 1
+    green = 2
+    blue = 3"""
+
+"""class IVehicle(zope.interface.Interface):
+    """Any moving thing"""
+    speed = zope.interface.Attribute("""Movement speed""")
+    def move():
+        """Make a single step"""
+
+class Car(object):
+    zope.interface.implements(IVehicle)
+
+    def __init__():
+        self.speed = 1
+        self.location = 1
+
+    def move(self):
+        self.location = self.speed*1
+        print "moved!"
+    
+assert IVehicle.implementedBy(Car)
+assert IVehicle.providedBy(Car())
+"""
